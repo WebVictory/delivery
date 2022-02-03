@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+{% load static %}
+{% block main_content %}
+
+    <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Данные успешно отправлены!</h4>
+  <p>Вернуться на страницу оформление заказа <a  class="btn btn-block btn-success" href="{% url "delivery_add" %}">Перейти</a></p>
+</div>
+{% endblock %}
